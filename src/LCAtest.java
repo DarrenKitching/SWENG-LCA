@@ -62,7 +62,7 @@ public class LCAtest {
         assertEquals(LCA.findLCA(head, nodeFour, nodeSix).value, head.value);
         assertEquals(LCA.findLCA(head, nodeEight, nodeNine).value, nodeFour.value);
         assertEquals(LCA.findLCA(head, nodeTwelve, nodeSeven).value, nodeThree.value);
-        assertEquals(LCA.findLCA(head, nodeFive, nodeEleven).value, nodeTwo.value);
+        assertEquals(LCA.findLCA(head, nodeFive, nodeEleven).value, nodeFive.value);
     }
 
     @Test
@@ -78,12 +78,12 @@ public class LCAtest {
         LCA.Node nodeSix = new LCA.Node(6);
         LCA.Node nodeSeven = new LCA.Node(7);
         nodeTwo.left = nodeFour;
-        nodeFour.left = nodeFive;
-        nodeFour.right = nodeSix;
+        nodeTwo.right = nodeFive;
+        nodeThree.left = nodeSix;
         nodeThree.right = nodeSeven;
         assertEquals(LCA.findLCA(head, nodeFive, nodeSeven).value, head.value);
         assertEquals(LCA.findLCA(head, nodeFour, nodeFive).value, nodeTwo.value);
-        assertEquals(LCA.findLCA(head, nodeFive, nodeSix).value, nodeTwo.value);
+        assertEquals(LCA.findLCA(head, nodeFive, nodeSix).value, head.value);
     }
 
     @Test
