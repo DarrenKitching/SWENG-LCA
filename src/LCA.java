@@ -17,6 +17,10 @@ class LCA {
     public static Node findLCA(Node head, Node nodeOne, Node nodeTwo) {
         Node LCA = null;
         addNodesToList(nodes, head);
+        boolean isAncestor[] = new boolean[nodes.size()]; //keep track of which nodes are common ancestors to nodeOne and nodeTwo
+        for(int i = 0; i < isAncestor.length; i++)
+            isAncestor[i] = false; //initialize all index's to false
+        
         return null;
     }
 
