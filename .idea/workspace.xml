@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba4828e4-abf8-44c2-ba6d-d32dbae2288e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWENG-LCA/LCA$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SWENG-LCA/LCA$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SWENG-LCA/LCAtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SWENG-LCA/LCAtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LCAtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCAtest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="-828">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCAtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+            <state relative-caret-position="379">
+              <caret line="196" column="63" selection-start-line="196" selection-start-column="63" selection-end-line="196" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -58,8 +59,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/LCA.java" />
-        <option value="$PROJECT_DIR$/src/LCA.java" />
         <option value="$PROJECT_DIR$/src/LCAtest.java" />
+        <option value="$PROJECT_DIR$/src/LCA.java" />
       </list>
     </option>
   </component>
@@ -73,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -96,6 +96,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -103,7 +104,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569933874479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570096614341" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -163,19 +164,17 @@
       <option name="project" value="LOCAL" />
       <updated>1569933437391</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed error in tests">
+      <created>1569933990555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569933990555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LCAtest - 2019.10.01 at 13h 23m 41s.xml">
-      <configuration name="LCAtest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LCAtest - 2019.10.01 at 13h 31m 34s.xml">
-      <configuration name="LCAtest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LCAtest - 2019.10.01 at 13h 31m 44s.xml">
-      <configuration name="LCAtest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LCAtest - 2019.10.01 at 13h 33m 19s.xml">
       <configuration name="LCAtest" configurationId="JUnit" />
     </history-entry>
@@ -197,6 +196,15 @@
     <history-entry file="LCAtest - 2019.10.01 at 13h 44m 37s.xml">
       <configuration name="LCAtest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LCAtest - 2019.10.03 at 10h 49m 31s.xml">
+      <configuration name="LCAtest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCAtest - 2019.10.03 at 10h 54m 12s.xml">
+      <configuration name="LCAtest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LCAtest - 2019.10.03 at 10h 56m 26s.xml">
+      <configuration name="LCAtest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,7 +219,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,45 +249,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed bugs in addNodesToList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs in addNodesToList" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LCA.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LCA.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fixed error in tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed error in tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SWENG-LCA.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/LCA.java" />
-    <entry file="file://$PROJECT_DIR$/src/LCAtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        <state relative-caret-position="-828">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LCAtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="196" column="63" selection-start-line="196" selection-start-column="63" selection-end-line="196" selection-end-column="63" />
         </state>
       </provider>
     </entry>
