@@ -15,6 +15,21 @@ class LCA {
         }
     }
 
+    public static class DagNode {
+        int value;
+        ArrayList<DagNode> edges;
+
+        DagNode(int value) {
+            this.value = value;
+            edges = new ArrayList<>();
+        }
+
+        DagNode(int value, ArrayList<DagNode> edges) {
+            this.value = value;
+            this.edges = edges;
+        }
+    }
+
     public static Node findLCA(Node head, Node nodeOne, Node nodeTwo) {
         Node LCA = null;
         ArrayList<Node> nodes = new ArrayList<>();
