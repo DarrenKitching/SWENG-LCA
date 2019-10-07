@@ -7,7 +7,7 @@ import org.junit.runners.JUnit4;
 @RunWith(JUnit4.class)
 public class LCAtest {
     @Test
-    public void testNullInputs() {
+    public void testNullInputsBST() {
         LCA lca = new LCA();
         assertEquals(lca.findLCA(null, null, null), null); // Two null inputs
         LCA.Node test = new LCA.Node(5);
@@ -16,7 +16,16 @@ public class LCAtest {
     }
 
     @Test
-    public void smallInput() {
+    public void testNullInputsDAG() {
+        LCA lca = new LCA();
+        assertEquals(lca.findLCADAG(null, null, null), null); // Two null inputs
+        LCA.DagNode test = new LCA.DagNode(5);
+        assertEquals(lca.findLCADAG(null, null, test), null); // First input null
+        assertEquals(lca.findLCADAG(null, test, null), null); // Second input null
+    }
+
+    @Test
+    public void smallInputBST() {
         LCA lca = new LCA();
         LCA.Node head = new LCA.Node(1);
         LCA.Node left = new LCA.Node(2);
@@ -28,7 +37,7 @@ public class LCAtest {
     }
 
     @Test
-    public void largeInput() {
+    public void largeInputBST() {
         LCA lca = new LCA();
         LCA.Node head = new LCA.Node(1);
         LCA.Node nodeTwo = new LCA.Node(2);
@@ -66,7 +75,7 @@ public class LCAtest {
     }
 
     @Test
-    public void unBalancedTree() {
+    public void unBalancedTreeBST() {
         LCA lca = new LCA();
         LCA.Node head = new LCA.Node(1);
         LCA.Node nodeTwo = new LCA.Node(2);
@@ -87,7 +96,7 @@ public class LCAtest {
     }
 
     @Test
-    public void testSameNode() {
+    public void testSameNodeBST() {
         LCA lca = new LCA();
         LCA.Node head = new LCA.Node(1);
         LCA.Node nodeTwo = new LCA.Node(2);
