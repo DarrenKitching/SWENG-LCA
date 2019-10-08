@@ -37,6 +37,19 @@ public class LCAtest {
     }
 
     @Test
+    public void smallInputDAG() {
+        LCA lca = new LCA();
+        LCA.DagNode head = new LCA.DagNode(1);
+        LCA.DagNode nodeTwo = new LCA.DagNode(2);
+        LCA.DagNode nodeThree = new LCA.DagNode(3);
+        LCA.DagNode nodeFour = new LCA.DagNode(4);
+        head.edges.add(nodeTwo);
+        head.edges.add(nodeThree);
+        head.edges.add(nodeFour);
+        assertEquals(head, LCA.findLCADAG(head, nodeTwo, nodeFour));
+    }
+
+    @Test
     public void largeInputBST() {
         LCA lca = new LCA();
         LCA.Node head = new LCA.Node(1);
@@ -72,6 +85,46 @@ public class LCAtest {
         assertEquals(LCA.findLCA(head, nodeEight, nodeNine).value, nodeFour.value);
         assertEquals(LCA.findLCA(head, nodeTwelve, nodeSeven).value, nodeThree.value);
         assertEquals(LCA.findLCA(head, nodeFive, nodeEleven).value, nodeFive.value);
+    }
+
+    @Test
+    public void largeInputDAG() {
+        LCA lca = new LCA();
+        LCA.DagNode head = new LCA.DagNode(1);
+        LCA.DagNode nodeTwo = new LCA.DagNode(2);
+        LCA.DagNode nodeThree = new LCA.DagNode(3);
+        LCA.DagNode nodeFour = new LCA.DagNode(4);
+        LCA.DagNode nodeFive = new LCA.DagNode(5);
+        LCA.DagNode nodeSix = new LCA.DagNode(6);
+        LCA.DagNode nodeSeven = new LCA.DagNode(7);
+        LCA.DagNode nodeEight = new LCA.DagNode(8);
+        LCA.DagNode nodeNine = new LCA.DagNode(9);
+        LCA.DagNode nodeTen = new LCA.DagNode(10);
+        LCA.DagNode nodeEleven = new LCA.DagNode(11);
+        LCA.DagNode nodeTwelve = new LCA.DagNode(12);
+        LCA.DagNode nodeThirteen = new LCA.DagNode(13);
+        LCA.DagNode nodeFourteen = new LCA.DagNode(14);
+        LCA.DagNode nodeFifteen = new LCA.DagNode(15);
+        head.edges.add(nodeTwo);
+        head.edges.add(nodeThree);
+        head.edges.add(nodeFour);
+        nodeTwo.edges.add(nodeFive);
+        nodeTwo.edges.add(nodeSix);
+        nodeTwo.edges.add(nodeSeven);
+        nodeThree.edges.add(nodeSeven);
+        nodeThree.edges.add(nodeEight);
+        nodeThree.edges.add(nodeNine);
+        nodeThree.edges.add(nodeTen);
+        nodeFour.edges.add(nodeEleven);
+        nodeFour.edges.add(nodeTwelve);
+        nodeFour.edges.add(nodeThirteen);
+        nodeFour.edges.add(nodeFourteen);
+        nodeFour.edges.add(nodeFifteen);
+        assertEquals(nodeThree.value, LCA.findLCADAG(head, nodeThree, nodeSeven).value);
+        assertEquals(nodeFour.value, LCA.findLCADAG(head, nodeFifteen, nodeFourteen).value);
+        assertEquals(head.value, LCA.findLCADAG(head, nodeTen, nodeFifteen).value);
+        assertEquals(head.value, LCA.findLCADAG(head, head, head).value);
+        assertEquals(nodeThree.value, LCA.findLCADAG(head, nodeThree, nodeThree).value);
     }
 
     @Test
