@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4828e4-abf8-44c2-ba6d-d32dbae2288e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWENG-LCA/LCAtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SWENG-LCA/LCAtest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LCAtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LCAtest.java" afterDir="false" />
     </list>
@@ -19,24 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+            <state>
               <folding>
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LCAtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="2732">
+              <caret line="223" column="9" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -74,8 +70,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="94" />
-    <option name="y" value="126" />
+    <option name="x" value="93" />
+    <option name="y" value="125" />
     <option name="width" value="975" />
     <option name="height" value="1050" />
   </component>
@@ -84,6 +80,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,8 +103,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,9 +181,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LCAtest - 2019.10.01 at 13h 31m 34s.xml">
-      <configuration name="LCAtest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LCAtest - 2019.10.01 at 13h 31m 44s.xml">
       <configuration name="LCAtest" configurationId="JUnit" />
     </history-entry>
@@ -215,6 +208,9 @@
     <history-entry file="LCAtest - 2019.10.07 at 17h 08m 53s.xml">
       <configuration name="LCAtest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LCAtest - 2019.10.08 at 13h 20m 52s.xml">
+      <configuration name="LCAtest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,10 +222,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,7 +233,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25027084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25027084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1898017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,26 +263,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/LCA.java" />
     <entry file="file://$PROJECT_DIR$/src/LCAtest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="2732">
+          <caret line="223" column="9" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+        <state>
           <folding>
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LCAtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="196" column="63" selection-start-line="196" selection-start-column="63" selection-end-line="196" selection-end-column="63" />
         </state>
       </provider>
     </entry>

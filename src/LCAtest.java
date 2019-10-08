@@ -221,6 +221,7 @@ public class LCAtest {
         assertEquals(false, lca.checkIfAncestor(nodeFour, nodeSix));
     }
 
+    @Test
     public void testCheckIfAncestorTwoNodes() {
         LCA lca = new LCA();
         LCA.Node head = new LCA.Node(1);
